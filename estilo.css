@@ -593,6 +593,10 @@ main{
     height: 250px;
     width: 270px;
 }
+.lomasvendido3:hover{
+    transform: scale(1.02);
+    transition: 0.7s;
+}
 .img1{
     background-image: url(Lomasvendido/Art\ 01.png);
     background-size: cover;
@@ -647,6 +651,10 @@ main{
     height: 250px;
     width: 270px;
 }
+.promocionesexclusivas3:hover{
+    transform: scale(1.02);
+    transition: 0.7s;
+}
 .img6{
     background-image: url(promocionesexclusivas/Art\ 07.png);
     background-size: cover;
@@ -700,6 +708,10 @@ main{
     border: 2px solid white;
     height: 250px;
     width: 270px;
+}
+.nuestrosfavoritos3:hover{
+    transform: scale(1.02);
+    transition: 0.7s;
 }
 .img11{
     background-image: url(nuestrosfavoritos/Art\ 102.png);
@@ -1721,6 +1733,10 @@ main{
     height: 250px;
     width: 270px;
 }
+.colaless3:hover{
+    transform: scale(1.02);
+    transition: 0.7s;
+}
 .img16{
     background-image: url(colaless/Art\ 01.png);
     background-size: cover;
@@ -1774,6 +1790,10 @@ main{
     border: 2px solid white;
     height: 250px;
     width: 270px;
+}
+.vedetina3:hover{
+    transform: scale(1.02);
+    transition: 0.7s;
 }
 .img21{
     background-image: url(vedetina/Art\ 02.png);
@@ -1830,6 +1850,10 @@ main{
     height: 250px;
     width: 270px;
 }
+.tirocorto3:hover{
+    transform: scale(1.02);
+    transition: 0.7s;
+}
 .img26{
     background-image: url(tirocorto/Art\ 03.png);
     background-size: cover;
@@ -1883,6 +1907,10 @@ main{
     border: 2px solid white;
     height: 250px;
     width: 270px;
+}
+.culotte3:hover{
+    transform: scale(1.02);
+    transition: 0.7s;
 }
 .img31{
     background-image: url(culotte/Art\ 06.png);
@@ -1939,6 +1967,10 @@ main{
     height: 250px;
     width: 270px;
 }
+.universal3:hover{
+    transform: scale(1.02);
+    transition: 0.7s;
+}
 .img36{
     background-image: url(universal/Art\ 104.png);
     background-size: cover;
@@ -1993,6 +2025,10 @@ main{
     border: 2px solid white;
     height: 250px;
     width: 270px;
+}
+.especial3:hover{
+    transform: scale(1.02);
+    transition: 0.7s;
 }
 .img41{
     background-image: url(especial/Art\ 15.png);

@@ -14,31 +14,6 @@ height: 100px;
 width: 100%;
 padding: 20px;
 }
-.logo{
-    float: right;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #FEE3EC;
-}
-.logo span{
-    color: #FEE3EC;
-}
-.menu{
-    float: left;
-}
-.menu ul li{
-    list-style: none;
-    display: inline-block;
-    margin-right: 10px;
-}
-.menu a{
-    text-decoration: none;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-transform: capitalize;
-    color: #FEE3EC;
-}
-.menu a:hover{
-    color: #333;
-}
 
 /* CSS DEL MAIN */
 
@@ -67,42 +42,43 @@ main{
     width: 100%;
     display: grid;
     grid-template-columns: repeat(1,100%)
+    
 }
 .lomasvendido3{
     border: 2px solid white;
-    height: 120px;
-    width: 200px;
+    height: 250px;
+    width: 270px;
 }
 .img1{
-    background-image: url(Lomasvendido/Art\ 01.png);
+    background-image: url(colaless/Art\ 01.png);
     background-size: cover;
     background-position: center;
     width: 300px;
     height: 200px;
 }
 .img2{
-    background-image: url(Lomasvendido/Art\ 03.png);
+    background-image: url(colaless/Art\ 101.png);
     background-size: cover;
     background-position: center;
     width: 300px;
     height: 200px;
 }
 .img3{
-    background-image: url(Lomasvendido/Art\ 06.png);
+    background-image: url(colaless/Art\ 31.png);
     background-size: cover;
     background-position: center;
     width: 300px;
     height: 200px;
 }
 .img4{
-    background-image: url(Lomasvendido/Art\ 14.png);
+    background-image: url(colaless/Art\ 51.png);
     background-size: cover;
     background-position: center;
     width: 300px;
     height: 200px;
 }
 .img5{
-    background-image: url(Lomasvendido/Art\ 32.jpg);
+    background-image: url(colaless/Art\ 51E.jpeg);
     background-size: cover;
     background-position: center;
     width: 300px;
@@ -2076,7 +2052,7 @@ main{
 
 /* CSS DEL FOOTER */
 footer{
-    height: 130px;
+    height: 160px;
     width: 100%;
     background-color: #F2789F;
     text-align: center;

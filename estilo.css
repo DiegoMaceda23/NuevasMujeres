@@ -17,6 +17,14 @@ padding: 20px;
 
 /* CSS DEL MAIN */
 
+.jumbotron{
+    height: 200px;
+    background-color: #F999B7;
+    text-align: center;
+}
+.jumbotron p{
+    font-size: 30px;
+}
 main{
     background-color: #F999B7;
     height: auto;
@@ -42,7 +50,6 @@ main{
     width: 100%;
     display: grid;
     grid-template-columns: repeat(1,100%)
-    
 }
 .lomasvendido3{
     border: 2px solid white;

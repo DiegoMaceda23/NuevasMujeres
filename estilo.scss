@@ -1,0 +1,2088 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+/* CSS DEL HEADER */
+header{
+background-color: #F2789F;
+height: 100px;
+width: 100%;
+padding: 20px;
+}
+
+/* CSS DEL MAIN */
+
+.jumbotron{
+    height: 200px;
+    background-color: #F999B7;
+    text-align: center;
+}
+.jumbotron p{
+    font-size: 30px;
+}
+main{
+    background-color: #F999B7;
+    height: auto;
+    width: 100%;
+}
+
+/* CSS DEL MAIN (INDEX) */
+
+.lomasvendido{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+    height: auto;
+    width: 100%;
+}
+.lomasvendido h2{
+    margin-right: 20px;
+    text-align: center;
+    height: 60px;
+    width: 100%;
+}
+.lomasvendido2{
+    height: auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1,100%)
+}
+.lomasvendido3{
+    border: 2px solid white;
+    height: 250px;
+    width: 270px;
+}
+.img1{
+    background-image: url(colaless/Art\ 01.png);
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height: 200px;
+}
+.img2{
+    background-image: url(colaless/Art\ 101.png);
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height: 200px;
+}
+.img3{
+    background-image: url(colaless/Art\ 31.png);
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height: 200px;
+}
+.img4{
+    background-image: url(colaless/Art\ 51.png);
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height: 200px;
+}
+.img5{
+    background-image: url(colaless/Art\ 51E.jpeg);
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height: 200px;
+}
+.promocionesexclusivas{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+}
+.promocionesexclusivas h2{
+    text-align: center;
+    margin-top: 20px;
+    margin-right: 20px;
+    height: 60px;
+    width: 100%;
+}
+.promocionesexclusivas2{
+    height: auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1,100%)
+}
+.promocionesexclusivas3{
+    border: 2px solid white;
+    height: 250px;
+    width: 270px;
+}
+.img6{
+    background-image: url(promocionesexclusivas/Art\ 07.png);
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height: 200px;
+}
+.img7{
+    background-image: url(promocionesexclusivas/Art\ 13.png);
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height: 200px;
+}
+.img8{
+    background-image: url(promocionesexclusivas/Art\ 31.png);
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height: 200px;
+}
+.img9{
+    background-image: url(promocionesexclusivas/Art\ 34.png);
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height: 200px;
+}
+.img10{
+    background-image: url(promocionesexclusivas/Art\ 52.png);
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height: 200px;
+}
+.nuestrosfavoritos{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+}
+.nuestrosfavoritos h2{
+    text-align: center;
+    margin-top: 20px;
+    margin-right: 20px;
+    height: 60px;
+    width: 100%;
+}
+.nuestrosfavoritos2{
+    height: auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1,100%)
+}
+.nuestrosfavoritos3{
+    border: 2px solid white;
+    height: 250px;
+    width: 270px;
+}
+.img11{
+    background-image: url(nuestrosfavoritos/Art\ 102.png);
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height: 200px;
+}
+.img12{
+    background-image: url(nuestrosfavoritos/Art\ 104.png);
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height: 200px;
+}
+.img13{
+    background-image: url(nuestrosfavoritos/Art\ 16.png);
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height: 200px;
+}
+.img14{
+    background-image: url(nuestrosfavoritos/Art\ 33.png);
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height: 200px;
+}
+.img15{
+    background-image: url(nuestrosfavoritos/Art\ 51.png);
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height: 200px;
+}
+/* RESPONSIVE 2 */
+@media only screen and (min-width: 640px){
+    .lomasvendido{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding: 20px;
+        height: auto;
+        width: 100%;
+    }
+    .lomasvendido h2{
+        margin-right: 20px;
+        text-align: center;
+        height: 60px;
+        width: 100%;
+    }
+    .lomasvendido2{
+        height: auto;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2,50%)
+    }
+    .lomasvendido3{
+        border: 2px solid white;
+        height: 120px;
+        width: 200px;
+    }
+    .img1{
+        background-image: url(Lomasvendido/Art\ 01.png);
+        background-size: cover;
+        background-position: center;
+        width: 300px;
+        height: 200px;
+    }
+    .img2{
+        background-image: url(Lomasvendido/Art\ 03.png);
+        background-size: cover;
+        background-position: center;
+        width: 300px;
+        height: 200px;
+    }
+    .img3{
+        background-image: url(Lomasvendido/Art\ 06.png);
+        background-size: cover;
+        background-position: center;
+        width: 300px;
+        height: 200px;
+    }
+    .img4{
+        background-image: url(Lomasvendido/Art\ 14.png);
+        background-size: cover;
+        background-position: center;
+        width: 300px;
+        height: 200px;
+    }
+    .img5{
+        background-image: url(Lomasvendido/Art\ 32.jpg);
+        background-size: cover;
+        background-position: center;
+        width: 300px;
+        height: 200px;
+    }
+    .promocionesexclusivas{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding: 20px;
+    }
+    .promocionesexclusivas h2{
+        text-align: center;
+        margin-top: 20px;
+        margin-right: 20px;
+        height: 60px;
+        width: 100%;
+    }
+    .promocionesexclusivas2{
+        height: auto;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2,50%)
+    }
+    .promocionesexclusivas3{
+        border: 2px solid white;
+        height: 120px;
+        width: 200px;
+    }
+    .img6{
+        background-image: url(promocionesexclusivas/Art\ 07.png);
+        background-size: cover;
+        background-position: center;
+        width: 300px;
+        height: 200px;
+    }
+    .img7{
+        background-image: url(promocionesexclusivas/Art\ 13.png);
+        background-size: cover;
+        background-position: center;
+        width: 300px;
+        height: 200px;
+    }
+    .img8{
+        background-image: url(promocionesexclusivas/Art\ 31.png);
+        background-size: cover;
+        background-position: center;
+        width: 300px;
+        height: 200px;
+    }
+    .img9{
+        background-image: url(promocionesexclusivas/Art\ 34.png);
+        background-size: cover;
+        background-position: center;
+        width: 300px;
+        height: 200px;
+    }
+    .img10{
+        background-image: url(promocionesexclusivas/Art\ 52.png);
+        background-size: cover;
+        background-position: center;
+        width: 300px;
+        height: 200px;
+    }
+    .nuestrosfavoritos{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding: 20px;
+    }
+    .nuestrosfavoritos h2{
+        text-align: center;
+        margin-top: 20px;
+        margin-right: 20px;
+        height: 60px;
+        width: 100%;
+    }
+    .nuestrosfavoritos2{
+        height: auto;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2,50%)
+    }
+    .nuestrosfavoritos3{
+        border: 2px solid white;
+        height: 250px;
+        width: 270px;
+    }
+    .img11{
+        background-image: url(nuestrosfavoritos/Art\ 102.png);
+        background-size: cover;
+        background-position: center;
+        width: 300px;
+        height: 200px;
+    }
+    .img12{
+        background-image: url(nuestrosfavoritos/Art\ 104.png);
+        background-size: cover;
+        background-position: center;
+        width: 300px;
+        height: 200px;
+    }
+    .img13{
+        background-image: url(nuestrosfavoritos/Art\ 16.png);
+        background-size: cover;
+        background-position: center;
+        width: 300px;
+        height: 200px;
+    }
+    .img14{
+        background-image: url(nuestrosfavoritos/Art\ 33.png);
+        background-size: cover;
+        background-position: center;
+        width: 300px;
+        height: 200px;
+    }
+    .img15{
+        background-image: url(nuestrosfavoritos/Art\ 51.png);
+        background-size: cover;
+        background-position: center;
+        width: 300px;
+        height:200px;
+}
+}
+/* RESPONSIVE 3 */
+@media only screen and (min-width: 1024px){
+    .lomasvendido{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding: 20px;
+        height: auto;
+        width: 100%;
+    }
+    .lomasvendido h2{
+        margin-right: 20px;
+        text-align: center;
+        height: 60px;
+        width: 100%;
+    }
+    .lomasvendido2{
+        height: auto;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(3,33%)
+    }
+    .lomasvendido3{
+        border: 2px solid white;
+        height: 120px;
+        width: 200px;
+    }
+    .img1{
+        background-image: url(Lomasvendido/Art\ 01.png);
+        background-size: cover;
+        background-position: center;
+        width: 300px;
+        height: 200px;
+    }
+    .img2{
+        background-image: url(Lomasvendido/Art\ 03.png);
+        background-size: cover;
+        background-position: center;
+        width: 300px;
+        height: 200px;
+    }
+    .img3{
+        background-image: url(Lomasvendido/Art\ 06.png);
+        background-size: cover;
+        background-position: center;
+        width: 300px;
+        height: 200px;
+    }
+    .img4{
+        background-image: url(Lomasvendido/Art\ 14.png);
+        background-size: cover;
+        background-position: center;
+        width: 300px;
+        height: 200px;
+    }
+    .img5{
+        background-image: url(Lomasvendido/Art\ 32.jpg);
+        background-size: cover;
+        background-position: center;
+        width: 300px;
+        height: 200px;
+    }
+    .promocionesexclusivas{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding: 20px;
+    }
+    .promocionesexclusivas h2{
+        text-align: center;
+        margin-top: 20px;
+        margin-right: 20px;
+        height: 60px;
+        width: 100%;
+    }
+    .promocionesexclusivas2{
+        height: auto;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(3,33%)
+    }
+    .promocionesexclusivas3{
+        border: 2px solid white;
+        height: 250px;
+        width: 270px;
+    }
+    .img6{
+        background-image: url(promocionesexclusivas/Art\ 07.png);
+        background-size: cover;
+        background-position: center;
+        width: 300px;
+        height: 200px;
+    }
+    .img7{
+        background-image: url(promocionesexclusivas/Art\ 13.png);
+        background-size: cover;
+        background-position: center;
+        width: 300px;
+        height: 200px;
+    }
+    .img8{
+        background-image: url(promocionesexclusivas/Art\ 31.png);
+        background-size: cover;
+        background-position: center;
+        width: 300px;
+        height: 200px;
+    }
+    .img9{
+        background-image: url(promocionesexclusivas/Art\ 34.png);
+        background-size: cover;
+        background-position: center;
+        width: 300px;
+        height: 200px;
+    }
+    .img10{
+        background-image: url(promocionesexclusivas/Art\ 52.png);
+        background-size: cover;
+        background-position: center;
+        width: 300px;
+        height: 200px;
+    }
+    .nuestrosfavoritos{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding: 20px;
+    }
+    .nuestrosfavoritos h2{
+        text-align: center;
+        margin-top: 20px;
+        margin-right: 20px;
+        height: 60px;
+        width: 100%;
+    }
+    .nuestrosfavoritos2{
+        height: auto;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(3,33%)
+    }
+    .nuestrosfavoritos3{
+        border: 2px solid white;
+        height: 250px;
+        width: 270px;
+    }
+    .img11{
+        background-image: url(nuestrosfavoritos/Art\ 102.png);
+        background-size: cover;
+        background-position: center;
+        width: 300px;
+        height: 200px;
+    }
+    .img12{
+        background-image: url(nuestrosfavoritos/Art\ 104.png);
+        background-size: cover;
+        background-position: center;
+        width: 300px;
+        height: 200px;
+    }
+    .img13{
+        background-image: url(nuestrosfavoritos/Art\ 16.png);
+        background-size: cover;
+        background-position: center;
+        width: 300px;
+        height: 200px;
+    }
+    .img14{
+        background-image: url(nuestrosfavoritos/Art\ 33.png);
+        background-size: cover;
+        background-position: center;
+        width: 300px;
+        height: 200px;
+    }
+    .img15{
+        background-image: url(nuestrosfavoritos/Art\ 51.png);
+        background-size: cover;
+        background-position: center;
+        width: 300px;
+        height:
+        200px;
+}
+}
+/* RESPONSIVE 4 */
+@media only screen and (min-width: 1200px){
+.lomasvendido{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+}
+.lomasvendido h2{
+    margin-right: 20px;
+    text-align: center;
+    height: 60px;
+    width: 100%;
+}
+.lomasvendido2{
+    display: flex;
+}
+.lomasvendido3{
+    border: 2px solid white;
+    height: 250px;
+    width: 270px;
+}
+.lomasvendido3:hover{
+    transform: scale(1.02);
+    transition: 0.7s;
+}
+.img1{
+    background-image: url(Lomasvendido/Art\ 01.png);
+    background-size: cover;
+    background-position: center;
+    width: 370px;
+    height: 200px;
+}
+.img2{
+    background-image: url(Lomasvendido/Art\ 03.png);
+    background-size: cover;
+    background-position: center;
+    width: 370px;
+    height: 200px;
+}
+.img3{
+    background-image: url(Lomasvendido/Art\ 06.png);
+    background-size: cover;
+    background-position: center;
+    width: 370px;
+    height: 200px;
+}
+.img4{
+    background-image: url(Lomasvendido/Art\ 14.png);
+    background-size: cover;
+    background-position: center;
+    width: 370px;
+    height: 200px;
+}
+.img5{
+    background-image: url(Lomasvendido/Art\ 32.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 370px;
+    height: 200px;
+}
+.promocionesexclusivas{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+}
+.promocionesexclusivas h2{
+    text-align: center;
+    margin-top: 20px;
+    margin-right: 20px;
+    height: 60px;
+    width: 100%;
+}
+.promocionesexclusivas2{
+    display: flex;
+}
+.promocionesexclusivas3{
+    border: 2px solid white;
+    height: 250px;
+    width: 270px;
+}
+.promocionesexclusivas3:hover{
+    transform: scale(1.02);
+    transition: 0.7s;
+}
+.img6{
+    background-image: url(promocionesexclusivas/Art\ 07.png);
+    background-size: cover;
+    background-position: center;
+    width: 370px;
+    height: 200px;
+}
+.img7{
+    background-image: url(promocionesexclusivas/Art\ 13.png);
+    background-size: cover;
+    background-position: center;
+    width: 370px;
+    height: 200px;
+}
+.img8{
+    background-image: url(promocionesexclusivas/Art\ 31.png);
+    background-size: cover;
+    background-position: center;
+    width: 370px;
+    height: 200px;
+}
+.img9{
+    background-image: url(promocionesexclusivas/Art\ 34.png);
+    background-size: cover;
+    background-position: center;
+    width: 370px;
+    height: 200px;
+}
+.img10{
+    background-image: url(promocionesexclusivas/Art\ 52.png);
+    background-size: cover;
+    background-position: center;
+    width: 370px;
+    height: 200px;
+}
+.nuestrosfavoritos{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+}
+.nuestrosfavoritos h2{
+    text-align: center;
+    margin-top: 20px;
+    margin-right: 20px;
+    height: 60px;
+    width: 100%;
+}
+.nuestrosfavoritos2{
+    display: flex;
+}
+.nuestrosfavoritos3{
+    border: 2px solid white;
+    height: 250px;
+    width: 270px;
+}
+.nuestrosfavoritos3:hover{
+    transform: scale(1.02);
+    transition: 0.7s;
+}
+.img11{
+    background-image: url(nuestrosfavoritos/Art\ 102.png);
+    background-size: cover;
+    background-position: center;
+    width: 370px;
+    height: 200px;
+}
+.img12{
+    background-image: url(nuestrosfavoritos/Art\ 104.png);
+    background-size: cover;
+    background-position: center;
+    width: 370px;
+    height: 200px;
+}
+.img13{
+    background-image: url(nuestrosfavoritos/Art\ 16.png);
+    background-size: cover;
+    background-position: center;
+    width: 370px;
+    height: 200px;
+}
+.img14{
+    background-image: url(nuestrosfavoritos/Art\ 33.png);
+    background-size: cover;
+    background-position: center;
+    width: 370px;
+    height: 200px;
+}
+.img15{
+    background-image: url(nuestrosfavoritos/Art\ 51.png);
+    background-size: cover;
+    background-position: center;
+    width: 370px;
+    height:200px;
+}
+}
+
+/* CSS DEL MAIN (PRODUCTOS) */
+
+.colaless{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+}
+.colaless h2{
+    
+    text-align: center;
+    margin-right: 20px;
+    height: 60px;
+    width: 100%;
+}
+.colaless2{
+    height: auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1,100%)
+}
+.colaless3{
+    border: 2px solid white;
+    height: 250px;
+    width: 270px;
+}
+.img16{
+    background-image: url(colaless/Art\ 01.png);
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height: 200px;
+}
+.img17{
+    background-image: url(colaless/Art\ 101.png);
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height: 200px;
+}
+.img18{
+    background-image: url(colaless/Art\ 31.png);
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height: 200px;
+}
+.img19{
+    background-image: url(colaless/Art\ 51.png);
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height: 200px;
+}
+.img20{
+    background-image: url(colaless/Art\ 51E.jpeg);
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height:200px;
+}
+.vedetina{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+}
+.vedetina h2{
+    text-align: center;
+    margin-top: 20px;
+    margin-right: 20px;
+    height: 60px;
+    width: 100%;
+}
+.vedetina2{
+    height: auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1,100%)
+}
+.vedetina3{
+    border: 2px solid white;
+    height: 250px;
+    width: 270px;
+}
+.img21{
+    background-image: url(vedetina/Art\ 02.png);
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height:200px;
+}
+.img22{
+    background-image: url(vedetina/Art\ 102.png);
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height:200px;
+}
+.img23{
+    background-image: url(vedetina/Art\ 32.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height:200px;
+}
+.img24{
+    background-image: url(vedetina/Art\ 52.png);
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height:200px;
+}
+.img25{
+    background-image: url(vedetina/Art\ 32E.jpeg);
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height:200px;
+}
+.tirocorto{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+}
+.tirocorto h2{
+    text-align: center;
+    margin-top: 20px;
+    margin-right: 20px;
+    height: 60px;
+    width: 100%;
+}
+.tirocorto2{
+    height: auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1,100%)
+}
+.tirocorto3{
+    border: 2px solid white;
+    height: 250px;
+    width: 270px;
+}
+.img26{
+    background-image: url(tirocorto/Art\ 03.png);
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height:200px;
+}
+.img27{
+    background-image: url(tirocorto/Art\ 103.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height:200px;
+}
+.img28{
+    background-image: url(tirocorto/Art\ 13.png);
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height:200px;
+}
+.img29{
+    background-image: url(tirocorto/Art\ 33.png);
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height:200px;
+}
+.img30{
+    background-image: url(tirocorto/Art\ 43.png);
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height:200px;
+}
+.culotte{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+}
+.culotte h2{
+    text-align: center;
+    margin-top: 20px;
+    margin-right: 20px;
+    height: 60px;
+    width: 100%;
+}
+.culotte2{
+    height: auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1,100%)
+}
+.culotte3{
+    border: 2px solid white;
+    height: 250px;
+    width: 270px;
+}
+.img31{
+    background-image: url(culotte/Art\ 06.png);
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height:200px;
+}
+.img32{
+    background-image: url(culotte/Art\ 07.png);
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height:200px;
+}
+.img33{
+    background-image: url(culotte/Art\ 16.png);
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height:200px;
+}
+.img34{
+    background-image: url(culotte/Art\ 36.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height:200px;
+}
+.img35{
+    background-image: url(culotte/Art\ 07E.jpeg);
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height:200px;
+}
+
+.universal{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+}
+.universal h2{
+    text-align: center;
+    margin-top: 20px;
+    margin-right: 20px;
+    height: 60px;
+    width: 100%;
+}
+.universal2{
+    height: auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1,100%)
+}
+.universal3{
+    border: 2px solid white;
+    height: 250px;
+    width: 270px;
+}
+.img36{
+    background-image: url(universal/Art\ 104.png);
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height:200px;
+}
+.img37{
+    background-image: url(universal/Art\ 14.png);
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height:200px;
+}
+.img38{
+    background-image: url(universal/Art\ 34.png);
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height:200px;
+}
+.img39{
+    background-image: url(universal/Art\ 04.png);
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height:200px;
+}
+.img40{
+    background-image: url(universal/Art\ 34E.jpeg);
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height:200px;
+}
+
+.especial{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+}
+.especial h2{
+    text-align: center;
+    margin-top: 20px;
+    margin-right: 20px;
+    height: 60px;
+    width: 100%;
+}
+.especial2{
+    height: auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1,100%)
+}
+.especial3{
+    border: 2px solid white;
+    height: 250px;
+    width: 270px;
+}
+.img41{
+    background-image: url(especial/Art\ 15.png);
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height:200px;
+}
+
+/* RESPONSIVE 2 */
+
+@media only screen and (min-width: 640px){
+    .colaless{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding: 20px;
+    }
+    .colaless h2{
+        
+        text-align: center;
+        margin-right: 20px;
+        height: 60px;
+        width: 100%;
+    }
+    .colaless2{
+        height: auto;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2,50%)
+    }
+    .colaless3{
+        border: 2px solid white;
+        height: 250px;
+        width: 270px;
+    }
+    .img16{
+        background-image: url(colaless/Art\ 01.png);
+        background-size: cover;
+        background-position: center;
+        width: 300px;
+        height: 200px;
+    }
+    .img17{
+        background-image: url(colaless/Art\ 101.png);
+        background-size: cover;
+        background-position: center;
+        width: 300px;
+        height: 200px;
+    }
+    .img18{
+        background-image: url(colaless/Art\ 31.png);
+        background-size: cover;
+        background-position: center;
+        width: 300px;
+        height: 200px;
+    }
+    .img19{
+        background-image: url(colaless/Art\ 51.png);
+        background-size: cover;
+        background-position: center;
+        width: 300px;
+        height: 200px;
+    }
+    .img20{
+        background-image: url(colaless/Art\ 51E.jpeg);
+        background-size: cover;
+        background-position: center;
+        width: 300px;
+        height:200px;
+    }
+    .vedetina{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding: 20px;
+    }
+    .vedetina h2{
+        text-align: center;
+        margin-top: 20px;
+        margin-right: 20px;
+        height: 60px;
+        width: 100%;
+    }
+    .vedetina2{
+        height: auto;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2,50%)
+    }
+    .vedetina3{
+        border: 2px solid white;
+        height: 250px;
+        width: 270px;
+    }
+    .img21{
+        background-image: url(vedetina/Art\ 02.png);
+        background-size: cover;
+        background-position: center;
+        width: 300px;
+        height:200px;
+    }
+    .img22{
+        background-image: url(vedetina/Art\ 102.png);
+        background-size: cover;
+        background-position: center;
+        width: 300px;
+        height:200px;
+    }
+    .img23{
+        background-image: url(vedetina/Art\ 32.jpg);
+        background-size: cover;
+        background-position: center;
+        width: 300px;
+        height:200px;
+    }
+    .img24{
+        background-image: url(vedetina/Art\ 52.png);
+        background-size: cover;
+        background-position: center;
+        width: 300px;
+        height:200px;
+    }
+    .img25{
+        background-image: url(vedetina/Art\ 32E.jpeg);
+        background-size: cover;
+        background-position: center;
+        width: 300px;
+        height:200px;
+    }
+    .tirocorto{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding: 20px;
+    }
+    .tirocorto h2{
+        text-align: center;
+        margin-top: 20px;
+        margin-right: 20px;
+        height: 60px;
+        width: 100%;
+    }
+    .tirocorto2{
+        height: auto;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2,50%)
+    }
+    .tirocorto3{
+        border: 2px solid white;
+        height: 250px;
+        width: 270px;
+    }
+    .img26{
+        background-image: url(tirocorto/Art\ 03.png);
+        background-size: cover;
+        background-position: center;
+        width: 300px;
+        height:200px;
+    }
+    .img27{
+        background-image: url(tirocorto/Art\ 103.jpg);
+        background-size: cover;
+        background-position: center;
+        width: 300px;
+        height:200px;
+    }
+    .img28{
+        background-image: url(tirocorto/Art\ 13.png);
+        background-size: cover;
+        background-position: center;
+        width: 300px;
+        height:200px;
+    }
+    .img29{
+        background-image: url(tirocorto/Art\ 33.png);
+        background-size: cover;
+        background-position: center;
+        width: 300px;
+        height:200px;
+    }
+    .img30{
+        background-image: url(tirocorto/Art\ 43.png);
+        background-size: cover;
+        background-position: center;
+        width: 300px;
+        height:200px;
+    }
+    .culotte{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding: 20px;
+    }
+    .culotte h2{
+        text-align: center;
+        margin-top: 20px;
+        margin-right: 20px;
+        height: 60px;
+        width: 100%;
+    }
+    .culotte2{
+        height: auto;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2,50%)
+    }
+    .culotte3{
+        border: 2px solid white;
+        height: 250px;
+        width: 270px;
+    }
+    .img31{
+        background-image: url(culotte/Art\ 06.png);
+        background-size: cover;
+        background-position: center;
+        width: 300px;
+        height:200px;
+    }
+    .img32{
+        background-image: url(culotte/Art\ 07.png);
+        background-size: cover;
+        background-position: center;
+        width: 300px;
+        height:200px;
+    }
+    .img33{
+        background-image: url(culotte/Art\ 16.png);
+        background-size: cover;
+        background-position: center;
+        width: 300px;
+        height:200px;
+    }
+    .img34{
+        background-image: url(culotte/Art\ 36.jpg);
+        background-size: cover;
+        background-position: center;
+        width: 300px;
+        height:200px;
+    }
+    .img35{
+        background-image: url(culotte/Art\ 07E.jpeg);
+        background-size: cover;
+        background-position: center;
+        width: 300px;
+        height:200px;
+    }
+    
+    .universal{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding: 20px;
+    }
+    .universal h2{
+        text-align: center;
+        margin-top: 20px;
+        margin-right: 20px;
+        height: 60px;
+        width: 100%;
+    }
+    .universal2{
+        height: auto;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2,50%)
+    }
+    .universal3{
+        border: 2px solid white;
+        height: 250px;
+        width: 270px;
+    }
+    .img36{
+        background-image: url(universal/Art\ 104.png);
+        background-size: cover;
+        background-position: center;
+        width: 300px;
+        height:200px;
+    }
+    .img37{
+        background-image: url(universal/Art\ 14.png);
+        background-size: cover;
+        background-position: center;
+        width: 300px;
+        height:200px;
+    }
+    .img38{
+        background-image: url(universal/Art\ 34.png);
+        background-size: cover;
+        background-position: center;
+        width: 300px;
+        height:200px;
+    }
+    .img39{
+        background-image: url(universal/Art\ 04.png);
+        background-size: cover;
+        background-position: center;
+        width: 300px;
+        height:200px;
+    }
+    .img40{
+        background-image: url(universal/Art\ 34E.jpeg);
+        background-size: cover;
+        background-position: center;
+        width: 300px;
+        height:200px;
+    }
+    
+    .especial{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding: 20px;
+    }
+    .especial h2{
+        text-align: center;
+        margin-top: 20px;
+        margin-right: 20px;
+        height: 60px;
+        width: 100%;
+    }
+    .especial2{
+        height: auto;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2,50%)
+    }
+    .especial3{
+        border: 2px solid white;
+        height: 250px;
+        width: 270px;
+    }
+    .img41{
+        background-image: url(especial/Art\ 15.png);
+        background-size: cover;
+        background-position: center;
+        width: 300px;
+        height:200px;
+    }
+}
+
+/* RESPONSIVE 3 */
+
+@media only screen and (min-width: 1024px){
+    .colaless{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding: 20px;
+    }
+    .colaless h2{
+        
+        text-align: center;
+        margin-right: 20px;
+        height: 60px;
+        width: 100%;
+    }
+    .colaless2{
+        height: auto;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(3,33%)
+    }
+    .colaless3{
+        border: 2px solid white;
+        height: 250px;
+        width: 270px;
+    }
+    .img16{
+        background-image: url(colaless/Art\ 01.png);
+        background-size: cover;
+        background-position: center;
+        width: 300px;
+        height: 200px;
+    }
+    .img17{
+        background-image: url(colaless/Art\ 101.png);
+        background-size: cover;
+        background-position: center;
+        width: 300px;
+        height: 200px;
+    }
+    .img18{
+        background-image: url(colaless/Art\ 31.png);
+        background-size: cover;
+        background-position: center;
+        width: 300px;
+        height: 200px;
+    }
+    .img19{
+        background-image: url(colaless/Art\ 51.png);
+        background-size: cover;
+        background-position: center;
+        width: 300px;
+        height: 200px;
+    }
+    .img20{
+        background-image: url(colaless/Art\ 51E.jpeg);
+        background-size: cover;
+        background-position: center;
+        width: 300px;
+        height:200px;
+    }
+    .vedetina{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding: 20px;
+    }
+    .vedetina h2{
+        text-align: center;
+        margin-top: 20px;
+        margin-right: 20px;
+        height: 60px;
+        width: 100%;
+    }
+    .vedetina2{
+        height: auto;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(3,33%)
+    }
+    .vedetina3{
+        border: 2px solid white;
+        height: 250px;
+        width: 270px;
+    }
+    .img21{
+        background-image: url(vedetina/Art\ 02.png);
+        background-size: cover;
+        background-position: center;
+        width: 300px;
+        height:200px;
+    }
+    .img22{
+        background-image: url(vedetina/Art\ 102.png);
+        background-size: cover;
+        background-position: center;
+        width: 300px;
+        height:200px;
+    }
+    .img23{
+        background-image: url(vedetina/Art\ 32.jpg);
+        background-size: cover;
+        background-position: center;
+        width: 300px;
+        height:200px;
+    }
+    .img24{
+        background-image: url(vedetina/Art\ 52.png);
+        background-size: cover;
+        background-position: center;
+        width: 300px;
+        height:200px;
+    }
+    .img25{
+        background-image: url(vedetina/Art\ 32E.jpeg);
+        background-size: cover;
+        background-position: center;
+        width: 300px;
+        height:200px;
+    }
+    .tirocorto{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding: 20px;
+    }
+    .tirocorto h2{
+        text-align: center;
+        margin-top: 20px;
+        margin-right: 20px;
+        height: 60px;
+        width: 100%;
+    }
+    .tirocorto2{
+        height: auto;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(3,33%)
+    }
+    .tirocorto3{
+        border: 2px solid white;
+        height: 250px;
+        width: 270px;
+    }
+    .img26{
+        background-image: url(tirocorto/Art\ 03.png);
+        background-size: cover;
+        background-position: center;
+        width: 300px;
+        height:200px;
+    }
+    .img27{
+        background-image: url(tirocorto/Art\ 103.jpg);
+        background-size: cover;
+        background-position: center;
+        width: 300px;
+        height:200px;
+    }
+    .img28{
+        background-image: url(tirocorto/Art\ 13.png);
+        background-size: cover;
+        background-position: center;
+        width: 300px;
+        height:200px;
+    }
+    .img29{
+        background-image: url(tirocorto/Art\ 33.png);
+        background-size: cover;
+        background-position: center;
+        width: 300px;
+        height:200px;
+    }
+    .img30{
+        background-image: url(tirocorto/Art\ 43.png);
+        background-size: cover;
+        background-position: center;
+        width: 300px;
+        height:200px;
+    }
+    .culotte{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding: 20px;
+    }
+    .culotte h2{
+        text-align: center;
+        margin-top: 20px;
+        margin-right: 20px;
+        height: 60px;
+        width: 100%;
+    }
+    .culotte2{
+        height: auto;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(3,33%)
+    }
+    .culotte3{
+        border: 2px solid white;
+        height: 250px;
+        width: 270px;
+    }
+    .img31{
+        background-image: url(culotte/Art\ 06.png);
+        background-size: cover;
+        background-position: center;
+        width: 300px;
+        height:200px;
+    }
+    .img32{
+        background-image: url(culotte/Art\ 07.png);
+        background-size: cover;
+        background-position: center;
+        width: 300px;
+        height:200px;
+    }
+    .img33{
+        background-image: url(culotte/Art\ 16.png);
+        background-size: cover;
+        background-position: center;
+        width: 300px;
+        height:200px;
+    }
+    .img34{
+        background-image: url(culotte/Art\ 36.jpg);
+        background-size: cover;
+        background-position: center;
+        width: 300px;
+        height:200px;
+    }
+    .img35{
+        background-image: url(culotte/Art\ 07E.jpeg);
+        background-size: cover;
+        background-position: center;
+        width: 300px;
+        height:200px;
+    }
+    
+    .universal{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding: 20px;
+    }
+    .universal h2{
+        text-align: center;
+        margin-top: 20px;
+        margin-right: 20px;
+        height: 60px;
+        width: 100%;
+    }
+    .universal2{
+        height: auto;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(3,33%)
+    }
+    .universal3{
+        border: 2px solid white;
+        height: 250px;
+        width: 270px;
+    }
+    .img36{
+        background-image: url(universal/Art\ 104.png);
+        background-size: cover;
+        background-position: center;
+        width: 300px;
+        height:200px;
+    }
+    .img37{
+        background-image: url(universal/Art\ 14.png);
+        background-size: cover;
+        background-position: center;
+        width: 300px;
+        height:200px;
+    }
+    .img38{
+        background-image: url(universal/Art\ 34.png);
+        background-size: cover;
+        background-position: center;
+        width: 300px;
+        height:200px;
+    }
+    .img39{
+        background-image: url(universal/Art\ 04.png);
+        background-size: cover;
+        background-position: center;
+        width: 300px;
+        height:200px;
+    }
+    .img40{
+        background-image: url(universal/Art\ 34E.jpeg);
+        background-size: cover;
+        background-position: center;
+        width: 300px;
+        height:200px;
+    }
+    
+    .especial{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding: 20px;
+    }
+    .especial h2{
+        text-align: center;
+        margin-top: 20px;
+        margin-right: 20px;
+        height: 60px;
+        width: 100%;
+    }
+    .especial2{
+        height: auto;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(3,33%)
+    }
+    .especial3{
+        border: 2px solid white;
+        height: 250px;
+        width: 270px;
+    }
+    .img41{
+        background-image: url(especial/Art\ 15.png);
+        background-size: cover;
+        background-position: center;
+        width: 300px;
+        height:200px;
+    }
+}
+
+/* RESPONSIVE 4 */
+
+@media only screen and (min-width: 1200px){
+.colaless{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+}
+.colaless h2{
+    
+    text-align: center;
+    margin-right: 20px;
+    height: 60px;
+    width: 100%;
+}
+.colaless2{
+    display: flex;
+}
+.colaless3{
+    border: 2px solid white;
+    height: 250px;
+    width: 270px;
+}
+.colaless3:hover{
+    transform: scale(1.02);
+    transition: 0.7s;
+}
+.img16{
+    background-image: url(colaless/Art\ 01.png);
+    background-size: cover;
+    background-position: center;
+    width: 370px;
+    height: 200px;
+}
+.img17{
+    background-image: url(colaless/Art\ 101.png);
+    background-size: cover;
+    background-position: center;
+    width: 370px;
+    height: 200px;
+}
+.img18{
+    background-image: url(colaless/Art\ 31.png);
+    background-size: cover;
+    background-position: center;
+    width: 370px;
+    height: 200px;
+}
+.img19{
+    background-image: url(colaless/Art\ 51.png);
+    background-size: cover;
+    background-position: center;
+    width: 370px;
+    height: 200px;
+}
+.img20{
+    background-image: url(colaless/Art\ 51E.jpeg);
+    background-size: cover;
+    background-position: center;
+    width: 370px;
+    height:200px;
+}
+.vedetina{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+}
+.vedetina h2{
+    text-align: center;
+    margin-top: 20px;
+    margin-right: 20px;
+    height: 60px;
+    width: 100%;
+}
+.vedetina2{
+    display: flex;
+}
+.vedetina3{
+    border: 2px solid white;
+    height: 250px;
+    width: 270px;
+}
+.vedetina3:hover{
+    transform: scale(1.02);
+    transition: 0.7s;
+}
+.img21{
+    background-image: url(vedetina/Art\ 02.png);
+    background-size: cover;
+    background-position: center;
+    width: 370px;
+    height:200px;
+}
+.img22{
+    background-image: url(vedetina/Art\ 102.png);
+    background-size: cover;
+    background-position: center;
+    width: 370px;
+    height:200px;
+}
+.img23{
+    background-image: url(vedetina/Art\ 32.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 370px;
+    height:200px;
+}
+.img24{
+    background-image: url(vedetina/Art\ 52.png);
+    background-size: cover;
+    background-position: center;
+    width: 370px;
+    height:200px;
+}
+.img25{
+    background-image: url(vedetina/Art\ 32E.jpeg);
+    background-size: cover;
+    background-position: center;
+    width: 370px;
+    height:200px;
+}
+
+.tirocorto{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+}
+.tirocorto h2{
+    text-align: center;
+    margin-top: 20px;
+    margin-right: 20px;
+    height: 60px;
+    width: 100%;
+}
+.tirocorto2{
+    display: flex;
+}
+.tirocorto3{
+    border: 2px solid white;
+    height: 250px;
+    width: 270px;
+}
+.tirocorto3:hover{
+    transform: scale(1.02);
+    transition: 0.7s;
+}
+.img26{
+    background-image: url(tirocorto/Art\ 03.png);
+    background-size: cover;
+    background-position: center;
+    width: 370px;
+    height:200px;
+}
+.img27{
+    background-image: url(tirocorto/Art\ 103.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 370px;
+    height:200px;
+}
+.img28{
+    background-image: url(tirocorto/Art\ 13.png);
+    background-size: cover;
+    background-position: center;
+    width: 370px;
+    height:200px;
+}
+.img29{
+    background-image: url(tirocorto/Art\ 33.png);
+    background-size: cover;
+    background-position: center;
+    width: 370px;
+    height:200px;
+}
+.img30{
+    background-image: url(tirocorto/Art\ 43.png);
+    background-size: cover;
+    background-position: center;
+    width: 370px;
+    height:200px;
+}
+.culotte{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+}
+.culotte h2{
+    text-align: center;
+    margin-top: 20px;
+    margin-right: 20px;
+    height: 60px;
+    width: 100%;
+}
+.culotte2{
+    display: flex;
+}
+.culotte3{
+    border: 2px solid white;
+    height: 250px;
+    width: 270px;
+}
+.culotte3:hover{
+    transform: scale(1.02);
+    transition: 0.7s;
+}
+.img31{
+    background-image: url(culotte/Art\ 06.png);
+    background-size: cover;
+    background-position: center;
+    width: 370px;
+    height:200px;
+}
+.img32{
+    background-image: url(culotte/Art\ 07.png);
+    background-size: cover;
+    background-position: center;
+    width: 370px;
+    height:200px;
+}
+.img33{
+    background-image: url(culotte/Art\ 16.png);
+    background-size: cover;
+    background-position: center;
+    width: 370px;
+    height:200px;
+}
+.img34{
+    background-image: url(culotte/Art\ 36.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 370px;
+    height:200px;
+}
+.img35{
+    background-image: url(culotte/Art\ 07E.jpeg);
+    background-size: cover;
+    background-position: center;
+    width: 370px;
+    height:200px;
+}
+
+.universal{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+}
+.universal h2{
+    text-align: center;
+    margin-top: 20px;
+    margin-right: 20px;
+    height: 60px;
+    width: 100%;
+}
+.universal2{
+    display: flex;
+}
+.universal3{
+    border: 2px solid white;
+    height: 250px;
+    width: 270px;
+}
+.universal3:hover{
+    transform: scale(1.02);
+    transition: 0.7s;
+}
+.img36{
+    background-image: url(universal/Art\ 104.png);
+    background-size: cover;
+    background-position: center;
+    width: 370px;
+    height:200px;
+}
+.img37{
+    background-image: url(universal/Art\ 14.png);
+    background-size: cover;
+    background-position: center;
+    width: 370px;
+    height:200px;
+}
+.img38{
+    background-image: url(universal/Art\ 34.png);
+    background-size: cover;
+    background-position: center;
+    width: 370px;
+    height:200px;
+}
+.img39{
+    background-image: url(universal/Art\ 04.png);
+    background-size: cover;
+    background-position: center;
+    width: 370px;
+    height:200px;
+}
+.img40{
+    background-image: url(universal/Art\ 34E.jpeg);
+    background-size: cover;
+    background-position: center;
+    width: 370px;
+    height:200px;
+}
+
+.especial{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+}
+.especial h2{
+    text-align: center;
+    margin-top: 20px;
+    margin-right: 20px;
+    height: 60px;
+    width: 100%;
+}
+.especial2{
+    display: flex;
+}
+.especial3{
+    border: 2px solid white;
+    height: 250px;
+    width: 270px;
+}
+.especial3:hover{
+    transform: scale(1.02);
+    transition: 0.7s;
+}
+.img41{
+    background-image: url(especial/Art\ 15.png);
+    background-size: cover;
+    background-position: center;
+    width: 370px;
+    height:200px;
+}
+}
+
+/* CSS DEL MAIN (QUIENES SOMOS) */
+.quienessomos{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.quienessomos{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+        h1{
+    text-align: center;
+    margin-right: 20px;
+    height: 60px;
+    width: 100%;    
+        }
+        p{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+        }
+        ul{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+        }
+}
+
+/* CSS DEL MAIN (CONTACTO) */
+.contacto{
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   padding-left: 10px;
+}
+.contacto h1{
+    margin-right: 20px;
+    height: 60px;
+    width: 100%;
+}
+
+/* CSS DEL FOOTER */
+footer{
+    height: 160px;
+    width: 100%;
+    background-color: #F2789F;
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+}
+footer p{
+    margin-bottom: 10px;
+}
+footer i{
+    color: black;
+    text-align: left;
+}
+.redes{
+    text-align: left;
+}
+.subir{
+    height: 50px;
+    width: 20px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 20px;
+    color: black;
+}
